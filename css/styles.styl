@@ -1,0 +1,40 @@
+$font-size = 14px;
+$link-color = red;
+$over-link-color = green;
+
+body{
+	h1 {
+		a {
+			color: $link-color;
+			text-decoration: none;
+			&:hover {
+				color: $over-link-color;
+			}
+		}
+	}
+	p {
+		font-size: 12px;
+		color: black;
+		background: url(../images/test.jpg) no-repeat 0 0 transparent;
+	}
+	.test1Asd {
+		background-color: red;
+		border: solid 1px green;
+		font-size: 20px;
+		font-weight: 300;
+		&.sub-test{
+			color: gray;
+			font-weight: 600;
+			font-family: Arial;
+			margin: none;
+			border: 0;
+		}
+	}
+	.test2 {
+		color: blue;
+		background-color: rgba( 0, 0, 0, 0.5 );
+	}
+	.test3 {
+		font-size: 12px;
+	}
+}
